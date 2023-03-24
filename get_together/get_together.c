@@ -8,7 +8,7 @@
 
 typedef struct
 {
-	char name[20];
+	char name[20]; // 이름을 저장함.
 } str;
 
 int main()
@@ -85,8 +85,5 @@ int main()
 			printf("1학년 : %s\n", menti[valueMenti]);
 		}
 	}
-
-	srand(time(NULL));
-
 	return 0;
 }
